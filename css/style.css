@@ -1,0 +1,25 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+@font-face {
+    font-family: nintendo_NTLG;
+    src: url(/assets/CAFESTD.woff),
+    url(/assets/CAFESTD.woff2);
+}
+
+body {
+    background-image: url('/assets/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    font-family: nintendo_NTLG;
+    font-size: 16px;
+
+    color: white;
+
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+}
